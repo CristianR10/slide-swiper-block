@@ -1,0 +1,20 @@
+@import 'swiper/css/bundle';
+
+:root {
+  --blocks-primary-accent: #bde8e7;
+}
+
+.slide-editor {
+  border: 2px solid var(--blocks-primary-accent);
+
+  &__title {
+    margin: 0;
+    letter-spacing: .5px;
+    background: var(--blocks-primary-accent);
+    padding: 15px;
+  }
+
+  .block-editor-inner-blocks {
+    padding: 15px;
+  }
+}
